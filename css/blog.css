@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0px;
+    display: flex;
+
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 50px;
+    position: absolute;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 700px;
+
+}
+
+nav ul li {
+    margin-left: 50px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+.button1 button {
+    width: 160.59px;
+    height: 48px;
+    padding: 6px 22.76px 6px 6px;
+    gap: 0px;
+    border-radius: 28px 28px 28px 28px;
+    opacity: 0px;
+    border: none;
+    color: #fff;
+    background-color: #9867FF;
+    margin: 0px 1320px;
+    position: absolute;
+
+
+}
+
+.button1 button:hover {
+    transition: 0.50s;
+    transform: translateY(-1px);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #777;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.explore-link {
+    color: #6633ff;
+    font-size: 1em;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.explore-link:hover {
+    text-decoration: underline;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+  
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  
+}
+
+@media (max-width: 1024px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.button1 button {
+    width: 160.59px;
+    height: 48px;
+    padding: 6px 22.76px 6px 6px;
+    gap: 0px;
+    border-radius: 28px 28px 28px 28px;
+    opacity: 0px;
+    border: none;
+    color: #fff;
+    background-color: #9867FF;
+    margin: 0px 1320px;
+    position: absolute;
+
+
+}
+
+.button1 button:hover {
+    transition: 0.50s;
+    transform: translateY(-1px);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+    transition: 0.5s;
+    transform: translateY(-1px);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.footer-section {
+    background-color: #9867FF;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.footer-left h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.subscribe input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 70%;
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-right {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+  
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.column a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.column a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}      
